@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+/* -------------NAVBAR-------------------------------------- */
+.logo{
+    margin-left: 20px;
+}
+.list{
+    list-style: none;
+}
+.list a{
+text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+.navitem{
+   display: inline;
+   padding: 20px;
+}
+.rightside{
+    width: 650px;
+}
+.topbuttons{
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    padding: 6px 10px;  
+    border:1px solid grey;
+} 
+.yellow-btn {
+    background:gold;
+    border:gold;
+}
+.topbuttons:hover{
+    color:red;
+}
+h3 {
+    color :red;
+}
+span {
+    color: black;
+}
+/* --------------------END OF NAVBAR--------------- */
+
+/* --------------------------HEROBAR-------------------------------------- */
+.herobar{
+    background:url('/IMAGES/young-black-woman-laughing-having-fun_1187-58812.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    color:white;
+}
+.herocontent{
+    margin:auto;
+    margin-left: 150px;
+}
+.herotext{
+    padding-top: 30px;
+}
+.herobutton{
+    margin-top: 30px;
+    padding: 15px 20px;
+    width: 150px;
+    background-color:gold;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: gold;
+}
+/* --------------------------------------CARD------------------- */
+.bigcard{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:-80px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 1px grey; 
+    height: 500px;
+}
+.card{
+    width: 20%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 80%;
+}
+.cardimage{
+    width: 100%;
+    border-radius: 100px;
+}
+.heading{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+@media(max-width: 1000px) {
+
+}

@@ -39,8 +39,9 @@ text-decoration: none;
     border:1px solid grey;
 } 
 .yellow-btn {
-    background:gold;
-    border:gold;
+    background:black;
+    border:red;
+    color: white;
 }
 .topbuttons:hover{
     color:red;
@@ -55,12 +56,12 @@ span {
 
 /* --------------------------HEROBAR-------------------------------------- */
 .herobar{
-    background:url('/IMAGES/young-black-woman-laughing-having-fun_1187-58812.jpg');
+    background:url('./IMAGES/eye-for-ebony-OeXcIHFwtsM-unsplash.jpg');
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 150px;
-    color:white;
+    color:black;
 }
 .herocontent{
     margin:auto;
@@ -73,11 +74,11 @@ span {
     margin-top: 30px;
     padding: 15px 20px;
     width: 150px;
-    background-color:gold;
-    color:black;
+    background-color:black;
+    color:white;
     border-radius: 5px;
     cursor: pointer;
-    border-color: gold;
+    border-color: red;
 }
 /* --------------------------------------CARD------------------- */
 .bigcard{
